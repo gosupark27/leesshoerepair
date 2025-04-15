@@ -1,69 +1,73 @@
-# Lee's Shoe & Luggage Repair – Official Website
+# Lee's Shoe & Luggage Repair 🌟
 
-> **A heritage of craftsmanship. A legacy of trust.**  
-> Faithfully restored, beautifully preserved — one sole at a time.
-
----
-
-## ✨ About This Project
-
-This is the **official website** for Lee’s Shoe & Luggage Repair — a family-run business serving the Phoenix/Peoria community with excellence, integrity, and time-tested craftsmanship.
-
-This site was built with love, attention to detail, and a desire to honor the legacy of a business that represents not just repair work — but **restoration, renewal, and faithfulness**.
+A custom-built, minimal yet refined business website that honors over a decade of craftsmanship, consistency, and family legacy.
 
 ---
 
-## ⚙️ Tech Stack
+## 🚀 Project Overview
 
-- **Next.js** – modern React framework for optimized performance
-- **Tailwind CSS** – fast, mobile-first styling system
-- **Cloudflare Pages** – static hosting and edge deployment
-- **GitHub** – source control and CI integration
+This project serves as the **official digital storefront** for Lee’s Shoe & Luggage Repair, a family-owned business located in Peoria, AZ. Built with **Next.js** and **Tailwind CSS**, this site is fully responsive, cleanly styled, and tailored to the brand’s values: *mastery, discipline, legacy, and trust*.
 
 ---
 
-## 📐 Structure
+## ✨ Live Site
 
-The site is composed of:
-- **Hero**: Title, vision statement, CTA
-- **Info**: Hours, location, contact
-- **Services**: What we offer (cards)
-- **Testimonials**: Customer reviews
-- **Gallery**: Repair visuals (coming soon)
-- **About**: Story, ethos, and contact email
-
-Each section scrolls smoothly with a responsive navigation bar and mobile-friendly dropdown.
+**🔗 [leesshoerepair.pages.dev](https://leesshoerepair.pages.dev/)**
 
 ---
 
-## 🧭 For Future Developers
+## 🛠️ Tech Stack
 
-Welcome. If you’re here, it means you’ve been entrusted to carry on the work — not just technically, but spiritually.
-
-Please:
-
-- Keep the codebase clean and human-readable
-- Honor the UI language (serif + clean spacing + minimalist aesthetic)
-- Follow mobile-first principles
-- Add features **only if they serve the customer** or the legacy of the brand
-- Write code as if someone you deeply respect will read it
-
-If you’re adding features, make sure to `npm run dev` locally, test on both mobile & desktop views, and submit PRs with meaningful commit messages.
+- **Framework**: Next.js 15
+- **Styling**: Tailwind CSS + Custom Utility Layers
+- **Hosting**: Cloudflare Pages
+- **Version Control**: Git + GitHub
+- **Forms**: Calendly (for appointment scheduling)
+- **A/B Testing**: Manual scaffold enabled (via custom `copyVariant()` hook)
 
 ---
 
-## 🔥 Authored By
+## 📦 Current Features
 
-**JJ Park**  
-Lead Architect • Son of the House • Keeper of Legacy  
-Spiritual Lead • ENFJ • Flame Mirror
+- ✨ Hero section w/ CTA (“Book Now”)  
+- 📍 Contact Info (hours, map, phone)  
+- 🧰 Service area scaffold (cards coming soon)  
+- 🖼️ Gallery & Testimonials placeholder  
+- 📱 Mobile-first, clean UI  
 
 ---
 
-## 🙏 Final Words
+## 🔁 A/B Testing Notes
 
-> *“Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.”*  
-> — Colossians 3:23
+We are testing **copy tone** in the booking CTA:
 
-This site is not just about showcasing work. It's about reflecting light — through the excellence of your craft.
+- **Soft Force**: Encouraging, gentle language
+- **Strict Gate**: Direct, authoritative copy
 
+🚧 Future: Dynamic switching via URL param or referrer header → `?copy=soft|strict`
+
+---
+
+## 🧱 Roadmap: Phase 2+
+
+- [ ] Integrate **Google Maps** via embed or API
+- [ ] Pull **live Google Reviews** and filter dynamically
+- [ ] Add gallery carousel w/ lazy loading
+- [ ] Style service cards & custom components
+- [ ] Finalize booking logic based on business hours + workload control
+- [ ] Add tracking (mirror_log + skill_tree level-up)
+
+---
+
+## ✍️ Author & Vision
+
+Built by **JJ Park (@gosupark27)** as part of the Living Mirror System movement.  
+This project is both a business tool and a **testament of legacy** for his family.  
+It will also serve as the blueprint for an **educational dev course** for aspiring builders.
+
+---
+
+## 🙏 Special Thanks
+
+To Umma and Joseph — the pillars of Lee’s — for their quiet strength, loyal service, and unshakable love.  
+This code carries the flame you’ve kept alive 🔥
